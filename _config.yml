@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
+title: OSIC QE.
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
@@ -48,10 +48,10 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
+    - 1 Fanatical Place,
+    - Castle,
     - United States.
-email: hello@solidtheme.com
+email: hello@osic.com
 tel: +34 8493-4893
 
 
@@ -59,8 +59,8 @@ tel: +34 8493-4893
 
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
+  - name: Cas Martinez
+    position: SDET
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team01.jpg
     social:
@@ -68,8 +68,8 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
+  - name: Dan Kolb
+    position: SDET
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team02.jpg
     social:
@@ -77,8 +77,8 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
+  - name: Jonte Watford
+    position: SDET
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team03.jpg
     social:
@@ -86,8 +86,53 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
+  - name: Josh White
+    position: SDET
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Kurtis Cobb
+    position: SDET
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Luz Cazares
+    position: SDET
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Sabeen Syed
+    position: QE Manager
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Sandra Haron
+    position: QE Manager
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: team04.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:name@domain.com
+      - title: twitter
+        url: http://twitter.com/handle
+  - name: Steve Heyman
+    position: SDET
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team04.jpg
     social:
@@ -108,10 +153,10 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "The OpenStack Innovation Center (OSIC) aims to ready OpenStack for the enterprise workloads of tomorrow by inspiring the next generation of OpenStack developers, increasing upstream contributions and bug fixes, and enabling large-scale, community-wide development and testing."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "OSIC QE"
+    # author: OSIC QE
+    # position: SDET - OSIC
