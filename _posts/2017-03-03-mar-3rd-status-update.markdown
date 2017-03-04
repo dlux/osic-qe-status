@@ -6,7 +6,7 @@ author: Admin
 categories:
 - status
 - Pike
-- Feb17
+- Mar17
 img: openstack_updated.png
 thumb: openstack_tn.jpg
 ---

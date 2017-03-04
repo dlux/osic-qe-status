@@ -7,8 +7,8 @@ categories:
 - status
 - Pike
 - Feb17
-img: post03.jpg
-thumb: thumb03.jpg
+img: openstack_updated.png
+thumb: openstack_tn.jpg
 ---
 
 <table>
