@@ -7,6 +7,117 @@ permalink: /
 <div id="service">
     <div class="container">
         <div class="row centered">
+          <h2>Pike Epic Status</h2>
+          <h3>P1 Epics</h3>
+            <div class="col-md-6">
+                <i class="fa fa-signal" aria-hidden="true" style="color:#F5D04C"></i>
+                <h4>Gate jobs for testing upgrades through Grenade</h4>
+                <p><em><font color="#F5D04C">In Progress (waiting on upstream community to merge)</font></em></p>
+                <p>Create experimental gate jobs for Keystone, Swift and Glance</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1427" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-6">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>BME Upgrade Testing CI Pipeline</h4>
+                <p><em><font color="green">In Progress</font></em></p>
+                <p>Working E2E flows on bare-metal deployment</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1416" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div><! --/container -->
+    <div class="container">
+        <div class="row centered">
+          <h3>P2 Epics</h3>
+            <div class="col-md-4">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa – Communication with OS Community</h4>
+                <p><em><font color="green">In Progress</font></em></p>
+                <p>Create spec for Sherpa; Start the conversation in the community; Get buy-in from community</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1417" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa - Test Manager</h4>
+                <p><em><font color="blue">Not Started</font></em></p>
+                <p>This module will orchestrate the upgrade, the running of tests, additional tests that need to be run, the configuration manager and the reports to be generated.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1418" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa - Deployment Control Interface</h4>
+                <p><em><font color="blue">Not Started</font></em></p>
+                <p>The deployment control interface will allow the user to use any OpenStack deployment tool, therefore being deployment tool agnostic.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1419" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div><! --/container -->
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa – Release Validator</h4>
+                <p><em><font color="blue">Not Started</font></em></p>
+                <p>This module will ensure that services are actually at the correct release version at any given time.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1423" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa - Persistent Resources Validator</h4>
+                <p><em><font color="blue">Not Started</font></em></p>
+                <p>This module will create and validate persistent resources like VMs or volumes at any given time.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1422" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa - System Health Validator</h4>
+                <p><em><font color="blue">Not Started</font></em></p>
+                <p>This module will run tempest smoke tests to that all services are functional at any given time (before, during and after an upgrade).</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1421" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div><! --/container -->
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-6">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa – Data Parser/Data Store</h4>
+                <p><em><font color="blue">Not Started</font></em></p>
+                <p>This module will parse the test results we receive from running the upgrade and store them in a data store.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1420" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-6">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Sherpa - Create a Report Generator</h4>
+                <p><em><font color="blue">Not Started</font></em></p>
+                <p>This module will be the minimum basic version of a report generator to show results from the test runs.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1424" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div><! --/container -->
+    <div class="container">
+        <div class="row centered">
+          <h3>P3 Epics</h3>
+            <div class="col-md-6">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Interoperability Testing</h4>
+                <p><em><font color="green">In Progress</font></em></p>
+                <p>Interop-WG - Create a guideline to score Keystone capabilities; Interop-challenge - Test kubernetes workload on top of OSIC cloud.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1426" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-6">
+                <i class="fa fa-signal" aria-hidden="true" style="color:green"></i>
+                <h4>Add periodic test runs to OS Health Dashboard</h4>
+                <p><em><font color="green">In Progress</font></em></p>
+                <p>Add results of tests that run periodically in upstream OpenStack to OS Health Dashboards.</p>
+                <p><br/><a href="https://01.org/jira/browse/OSIC-1425" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div><! --/container -->
+</div><! --/service -->
+
+<div id="service">
+    <div class="container">
+        <div class="row centered">
           <h2>Ocata Epic Status</h2>
             <div class="col-md-4">
                 <i class="fa fa-signal" aria-hidden="true" style="color:#F5D04C"></i>
