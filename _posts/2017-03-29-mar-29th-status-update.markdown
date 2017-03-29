@@ -50,9 +50,7 @@ thumb: openstack_tn.jpg
       <td>OS Health Dashboard</td>
       <td>Team is focusing on answering the following: 
       a. Why OSA does not appear on health dashboard Working on 2 patches to fix it. Related to tempest execution, collecting subunit log files, gate job picking the logs and placing them in the right location.
-      b. Can we notify by email or irc bot when a periodic job fails?  As a result of notification mechanisms investigation and chatting on infra channel. It is not technically possible. We are dropping this effort to concentrate on health dashboard.  In the future, if this capability is still needed, we might want to explore improving existing zuul reporter plugin to support parametrized email (vs fixed).
-
-      <a href= https://01.org/jira/browse/OSIC-1276?focusedCommentId=30403&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-30403>Link to Jira story</a>
+      b. Can we notify by email or irc bot when a periodic job fails?  As a result of notification mechanisms investigation and chatting on infra channel. It is not technically possible. We are dropping this effort to concentrate on health dashboard.  In the future, if this capability is still needed, we might want to explore improving existing zuul reporter plugin to support parametrized email (vs fixed). <a href= https://01.org/jira/browse/OSIC-1276?focusedCommentId=30403&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-30403>Link to Jira story</a>.
       </td>
       <td>None</td>
     </tr>
