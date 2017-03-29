@@ -34,18 +34,7 @@ thumb: openstack_tn.jpg
     </tr>
     <tr>
       <td>Sherpa  - Upgrade Testing Tool</td>
-      <td>Luz and team will bring up <a href= "https://review.openstack.org/#/c/449295/">Sherpa spec</a> to the QA community in Thursdays irc meeting. The hope is to get more eyes on this spec and get there feedback and buy-in for our future work efforts towards Sherpa.
-      
-      Team has decided that these will be the goals for completion in Ocata:
-        - Test Manager
-        - Deployment Control Interface
-        - Data Parser
-        - System Health Validator
-        - Persistent Resources Validator
-        - Release Version Validator
-        - Report Generator (very basic version)
-
-      Each team member has selected a module to work on in the upcoming week.
+      <td>Luz and team will bring up <a href= "https://review.openstack.org/#/c/449295/">Sherpa spec</a> to the QA community in Thursdays irc meeting. The hope is to get more eyes on this spec and get there feedback and buy-in for our future work efforts towards Sherpa.  Also team has selected <a href=https://etherpad.openstack.org/p/qe-sherpa-design<Sherpa completion goals for Ocata</a>.
       </td>
       <td>None</td>
     </tr>
