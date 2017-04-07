@@ -34,7 +34,7 @@ thumb: openstack_tn.jpg
     </tr>
     <tr>
       <td>Cragsman - Upgrade Testing Tool</td>
-      <td>Spec has been created for the Upgrade Testing tool. Currently working through the feedback we're getting on it. We renamed the tool to Cragsman - Sherpa. <a href="https://review.openstack.org/#/c/449295/">Sherpa/Upgrade test tool spec</a>.</td>
+      <td>Spec has been created for the Upgrade Testing tool. Currently working through the feedback we're getting on it. We renamed the tool to Cragsman. <a href="https://review.openstack.org/#/c/449295/">Cragsman/Upgrade test tool spec</a>.</td>
       <td>None</td>
     </tr>
     <tr>
